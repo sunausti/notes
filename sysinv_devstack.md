@@ -18,9 +18,10 @@
   * [platform-util](https://git.openstack.org/cgit/openstack/stx-utils/tree/middleware/util/recipes-common/platform-util/platform-util)
 * si-cond process must be trigged in phase test-config , otherwise it will fail.
 * sysinv-api port is same as ironic port 6385
-  
+* in ubuntu devstack enviroment, si-cond(sysinv-conductor) can not started, the database sysinv is always empty
+
 ## ToDo
 
+* fix "Limitation or Issue" and upload official patch
 * ubuntu devstack enviroment test
 * test-config setup and basic functional test
-* fix "Limitation or Issue" and upload official patch
